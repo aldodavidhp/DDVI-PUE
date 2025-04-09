@@ -84,7 +84,7 @@ def cargar_pdf(ruta_pdf):
 
 # --- Inicialización ---
 if "pdf_text" not in st.session_state:
-    pdf_content = cargar_pdf("CHATBOTCAEB.pdf")
+    pdf_content = cargar_pdf("DDVI.pdf")
     if pdf_content is None:
         st.error("No se pudo cargar el documento PDF. Contacta al administrador.")
         st.stop()
