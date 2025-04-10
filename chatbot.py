@@ -157,7 +157,7 @@ with col1:
 
 # --- Columna de Búsqueda ---
 with col2:
-    st.subheader("📋 Ingresa su tu CURP")
+    st.subheader("📋 Ingresa tu CURP")
     
     curp = st.text_input(
         "Ingresa CURP:", 
